@@ -7,14 +7,7 @@ CPSC 3410 Computer Networks
 
 Instructor: Jon Craton (jlcraton@anderson.edu)
 
-Office: Decker ? (phone)
-
-Meeting location
-
-- Decker 351 on Monday, Tuesday, and Wednesday from 2:00pm to 2:50pm
-- Decker 230 on Friday from 1:00pm to 2:50pm
-
-Office hours
+### Office hours (Decker ?)
 
 - 9am - 10am weekdays
 - 3pm - 4pm weekdays
