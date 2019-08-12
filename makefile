@@ -2,18 +2,18 @@ SRC = index
 
 all: $(SRC).html $(SRC).pdf
 
-.PHONY: show showpdf clean deploy
+.PHONY: clean
 
-$(SRC).odt: $(SRC).md
+$(SRC).odt: readme.md
 	pandoc --toc -o $@ $<
 
-$(SRC).html: $(SRC).md
+$(SRC).html: readme.md
+	pandoc --metadata pagetitle=Syllabs --mathjax --standalone --css=style.css -o $@ $<
+
+$(SRC).tex: readme.md
 	pandoc --mathjax --standalone --css=style.css -o $@ $<
 
-$(SRC).tex: $(SRC).md
-	pandoc --mathjax --standalone --css=style.css -o $@ $<
-
-$(SRC).pdf: $(SRC).md
+$(SRC).pdf: readme.md
 	pandoc --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" --pdf-engine=xelatex -s -o $@ $< 
 
 clean:

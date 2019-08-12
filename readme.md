@@ -1,7 +1,3 @@
----
-title-meta: CPSC 3410 Computer Networks
-...
-
 CPSC 3410 Computer Networks
 ===========================
 
