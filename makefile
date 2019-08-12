@@ -1,6 +1,6 @@
 SRC = index
 
-all: $(SRC).html $(SRC).pdf
+all: $(SRC).html
 
 .PHONY: clean
 
