@@ -32,6 +32,27 @@ Upon completion of this course, students will be able to:
 - Build basic networked applications in Python
 - Describe the core protocols used in modern networks (Ethernet, TCP/IP, QUIC, HTTP, DNS, DHCP, SMTP, etc)
 
+Course Overview
+---------------
+
+Please refer to Canvas for a list of assignments and detailed grading breakdown.
+
+### Presentations
+
+Students will complete two presentations over the course of the semester sharing knowledge of specific areas of interest with their peers.
+
+### Labs
+
+Students will complete weekly labs using various network technologies and the Python programming language.
+
+### Homework/Quizzes
+
+Students will complete appoximately 8 homework assignments covering various topics from the course text. Reading quizzes may also be given as needed and will be counted as homework grades.
+
+### Exams
+
+A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
+
 Grading Scale
 -------------
 
@@ -56,27 +77,6 @@ Late Assignments
 ----------------
 
 Late assignments will lose 10% for each day they are late rounded up, so an assignment submitted even one second late may be deducted 10%. In certain circumstances, extremely late work may be submitted for up to half credit.
-
-Course Overview
----------------
-
-Please refer to Canvas for a list of assignments and detailed grading breakdown.
-
-### Presentations
-
-Students will complete two presentations over the course of the semester sharing knowledge of specific areas of interest with their peers.
-
-### Labs
-
-Students will complete weekly labs using various network technologies and the Python programming language.
-
-### Homework/Quizzes
-
-Students will complete appoximately 8 homework assignments covering various topics from the course text. Reading quizzes may also be given as needed and will be counted as homework grades.
-
-### Exams
-
-A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
 
 Anderson University Educational Commitment
 ------------------------------------------
