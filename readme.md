@@ -37,10 +37,10 @@ Grading Summary
 ---------------
 
 --------------   ----
+Quizzes          10%
 Presentations    20%
-Labs             40%
-Exams            20%
-Final Exam       20%
+Labs             30%
+Exams            40%
 --------------   ----
 
 Grading Scale
