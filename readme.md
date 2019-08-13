@@ -3,11 +3,12 @@ CPSC 3410 Computer Networks
 
 Instructor: Jon Craton (jlcraton@anderson.edu)
 
-### Office hours (Decker ?)
+### Office hours
 
+- Office: Decker 353
 - 9am - 10am weekdays
 - 3pm - 4pm weekdays
-- My availability is always available at [joncraton.com/calendar](https://joncraton.com/calendar)
+- My availability is available at [joncraton.com/calendar](https://joncraton.com/calendar)
 
 Course Catalog Description
 --------------------------
@@ -23,7 +24,7 @@ Computer Networks, Fifth Edition. Wetherall, D., Tanenbaum, A. [ISBN10: 11057776
 Course objectives
 -----------------
 
-By the end of the semester, students will be able to:
+Upon completion of this course, students will be able to:
 
 - Describe the layers of the network stack
 - Design secure computer networks
@@ -40,6 +41,26 @@ Labs             40%
 Exams            20%
 Final Exam       20%
 --------------   ----
+
+Grading Scale
+-------------
+
+I use the following standard grading scale to map percentages to letter grades:
+
+--- --------
+A   93-100%
+A-  90-93%
+B+  87-90%
+B   83-87%
+B-  80-83%
+C+  77-80%
+C   73-77%
+C-  70-73%
+D+  67-70%
+D   63-67%
+D-  60-63%
+F   0-60%
+--- --------
 
 Course Overview
 ---------------
