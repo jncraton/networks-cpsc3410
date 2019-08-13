@@ -2,6 +2,7 @@ CPSC 3410 Computer Networks
 ===========================
 
 Instructor: Jon Craton (jlcraton@anderson.edu)
+Online syllabus: https://cpsc3410-networks.netlify.com/
 
 ### Office hours
 
