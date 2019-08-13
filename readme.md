@@ -53,10 +53,31 @@ D-  60-63%
 F   0-60%
 --- --------
 
+Late Assignments
+----------------
+
+Late assignments will lose 10% for each day they are late rounded up, so an assignment submitted even one second late may be deducted 10%. Please reach out to me directly if there are special circumstances necessitating late work to be submitted. I may allow extremely late work to be submitted for up to half credit.
+
 Course Overview
 ---------------
 
-Please refer to canvas for a list of assignments and detailed grading breakdown.
+Please refer to Canvas for a list of assignments and detailed grading breakdown.
+
+### Presentations
+
+Students will complete two presentations over the course of the semester sharing knowledge of specific areas of interest with their peers.
+
+### Labs
+
+Students will complete weekly labs using various network technologies and the Python programming language.
+
+### Homework/Quizzes
+
+Students will complete appoximately 8 homework assignments covering various topics from the course text. Reading quizzes may also be given as needed and will be counted as homework grades.
+
+### Exams
+
+A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
 
 Anderson University Educational Commitment
 ------------------------------------------
