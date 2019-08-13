@@ -33,16 +33,6 @@ Upon completion of this course, students will be able to:
 - Build basic networked applications in Python
 - Describe the core protocols used in modern networks (Ethernet, TCP/IP, QUIC, HTTP, DNS, DHCP, SMTP, etc)
 
-Grading Summary
----------------
-
---------------   ----
-Quizzes          10%
-Presentations    20%
-Labs             30%
-Exams            40%
---------------   ----
-
 Grading Scale
 -------------
 
@@ -66,6 +56,7 @@ F   0-60%
 Course Overview
 ---------------
 
+Please refer to canvas for a list of assignments and detailed grading breakdown.
 
 Anderson University Educational Commitment
 ------------------------------------------
