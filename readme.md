@@ -36,7 +36,7 @@ Upon completion of this course, students will be able to:
 Grading Scale
 -------------
 
-I use the following standard grading scale to map percentages to letter grades:
+The following standard grading scale is used to map percentages to letter grades:
 
 --- --------
 A   93-100%
@@ -56,7 +56,7 @@ F   0-60%
 Late Assignments
 ----------------
 
-Late assignments will lose 10% for each day they are late rounded up, so an assignment submitted even one second late may be deducted 10%. Please reach out to me directly if there are special circumstances necessitating late work to be submitted. I may allow extremely late work to be submitted for up to half credit.
+Late assignments will lose 10% for each day they are late rounded up, so an assignment submitted even one second late may be deducted 10%. In certain circumstances, extremely late work may be submitted for up to half credit.
 
 Course Overview
 ---------------
