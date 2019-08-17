@@ -1,6 +1,6 @@
 SRC = index
 
-all: $(SRC).html
+all: $(SRC).html $(SRC).docx
 
 .PHONY: clean
 
@@ -11,7 +11,10 @@ $(SRC).md: readme.md
 	markdown-pp readme.md -o index.md
 
 $(SRC).html: $(SRC).md
-	pandoc --metadata pagetitle=Syllabs --mathjax --standalone --css=style.css -o $@ $<
+	pandoc --metadata pagetitle=Syllabs --standalone --css=style.css -o $@ $<
+
+$(SRC).docx: $(SRC).md
+	pandoc --metadata pagetitle=Syllabs --css=style.css -o $@ $<
 
 $(SRC).tex: readme.md
 	pandoc --mathjax --standalone --css=style.css -o $@ $<
