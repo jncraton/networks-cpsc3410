@@ -14,7 +14,7 @@ $(SRC).html: $(SRC).md
 	pandoc --metadata pagetitle=Syllabs --standalone --css=style.css -o $@ $<
 
 $(SRC).docx: $(SRC).md
-	pandoc --metadata pagetitle=Syllabs --css=style.css -o $@ $<
+	pandoc --metadata pagetitle=Syllabs --reference-doc reference.docx -o $@ $<
 
 $(SRC).tex: readme.md
 	pandoc --mathjax --standalone --css=style.css -o $@ $<
