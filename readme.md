@@ -11,7 +11,7 @@ Students will gain in-depth knowledge of networking protocols and technologies, 
 Required Resources
 ------------------
 
-Computer Networks, Fifth Edition. Wetherall, D., Tanenbaum, A. [ISBN10: 1105777650](https://www.worldcat.org/title/computer-networks-fifth-edition/oclc/1105777650). 
+Computer Networks, Fifth Edition. Wetherall, D., Tanenbaum, A. [ISBN10: 0-13-212695-8](https://www.worldcat.org/title/computer-networks-fifth-edition/oclc/1105777650). 
 
 
 Course objectives
