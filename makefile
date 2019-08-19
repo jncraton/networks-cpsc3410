@@ -4,7 +4,7 @@ all: $(SRC).html $(SRC).docx
 
 .PHONY: clean
 
-$(SRC).odt: readme.md
+$(SRC).odt: $(SRC).md
 	pandoc --toc -o $@ $<
 
 $(SRC).md: readme.md
@@ -16,10 +16,10 @@ $(SRC).html: $(SRC).md
 $(SRC).docx: $(SRC).md
 	pandoc --metadata pagetitle=Syllabs --reference-doc reference.docx -o $@ $<
 
-$(SRC).tex: readme.md
+$(SRC).tex: $(SRC).md
 	pandoc --mathjax --standalone --css=style.css -o $@ $<
 
-$(SRC).pdf: readme.md
+$(SRC).pdf: $(SRC).md
 	pandoc --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
 clean:
