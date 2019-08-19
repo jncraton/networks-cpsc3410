@@ -1,6 +1,6 @@
 SRC = index
 
-all: $(SRC).html $(SRC).docx
+all: $(SRC).html syllabus.docx
 
 .PHONY: clean
 
@@ -10,20 +10,23 @@ $(SRC).odt: $(SRC).md
 $(SRC).md: readme.md
 	markdown-pp readme.md -o index.md
 
-$(SRC).html: $(SRC).md
+syllabus.html: $(SRC).md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
-$(SRC).docx: $(SRC).md
+index.html: syllabus.html
+	cp syllabus.html index.html
+
+syllabus.docx: $(SRC).md
 	pandoc --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
 
-$(SRC).tex: $(SRC).md
+syllabus.tex: $(SRC).md
 	pandoc --mathjax --standalone --css=style.css -o $@ $<
 
-$(SRC).pdf: $(SRC).md
-	pandoc --metadata pagetitle=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
+syllabus.pdf: $(SRC).md
+	pandoc --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
 clean:
-	rm -f $(SRC).txt $(SRC).odt $(SRC).docx $(SRC).pdf $(SRC).py $(SRC)-test.py $(SRC).html $(SRC).md slides.html
+	rm -f $(SRC).txt $(SRC).odt $(SRC).docx $(SRC).pdf $(SRC).py $(SRC)-test.py $(SRC).html $(SRC).md syllabus* slides.html
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
