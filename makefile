@@ -1,6 +1,6 @@
-all: index.html syllabus.docx
+all: index.html syllabus.docx lectures
 
-.PHONY: clean
+.PHONY: clean lectures
 
 syllabus.md: readme.md
 	markdown-pp $< -o $@
@@ -17,8 +17,12 @@ syllabus.docx: syllabus.md
 syllabus.pdf: syllabus.md
 	pandoc --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
+lectures:
+	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V revealjs-url="https://revealjs.com" -o "{}.html" "{}" \;
+
 clean:
 	rm -f index.html syllabus*
+	rm -rf lectures/*.html
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl

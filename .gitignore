@@ -1,9 +1,3 @@
-__pycache__
-figures
-*.pdf
-*.html
-*.docx
-*.md
-index.py
-index.md
-index-test.py
+readme-template.md
+syllabus*
+lectures/*.html
