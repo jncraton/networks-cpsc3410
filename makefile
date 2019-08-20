@@ -19,6 +19,7 @@ syllabus.pdf: syllabus.md
 
 lectures:
 	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V revealjs-url="https://revealjs.com" -o "{}.html" "{}" \;
+	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
 
 clean:
 	rm -f index.html syllabus*
