@@ -1,15 +1,18 @@
-all: index.html syllabus.docx lectures
+all: index.html syllabus.html syllabus.docx syllabus.txt lectures
 
 .PHONY: clean lectures
 
 syllabus.md: readme.md
 	markdown-pp $< -o $@
 
+syllabus.txt: syllabus.md
+	cp syllabus.md syllabus.txt
+
 syllabus.html: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
-index.html: syllabus.html
-	cp syllabus.html index.html
+index.html: index.md
+	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
 syllabus.docx: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
@@ -28,3 +31,4 @@ clean:
 	rm -rf __pycache__
 	rm -f netlifyctl
 	rm -rf revealjs
+	rm -f readme-template.md
