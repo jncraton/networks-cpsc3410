@@ -3,3 +3,4 @@ Formats:
 <a href="/syllabus.txt" download>txt</a> | 
 <a href="/syllabus.md" download>markdown</a> | 
 <a href="/syllabus.docx" download>docx</a>
+
