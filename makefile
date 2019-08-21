@@ -11,6 +11,9 @@ syllabus.txt: syllabus.md
 syllabus.html: syllabus.md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
+index.md: formats.md syllabus.md 
+	cat formats.md syllabus.md > index.md
+
 index.html: index.md
 	pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
