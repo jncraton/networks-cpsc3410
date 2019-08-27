@@ -24,7 +24,7 @@ syllabus.pdf: syllabus.md
 	pandoc --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
 lectures:
-	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V revealjs-url="https://revealjs.com" -o "{}.html" "{}" \;
+	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V revealjs-url="https://revealjs.com" -o "{}.html" "{}" \;
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
 
 clean:
