@@ -1,6 +1,4 @@
 import sys
-import re
-import csv
 
 def parse_mac(mac):
     """ 
