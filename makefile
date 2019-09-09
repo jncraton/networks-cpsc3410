@@ -31,7 +31,7 @@ lectures/all.md:
 	cd lectures && sed -e '$$G' -s *.md > all.md
 
 lectures/all.html: lectures/all.md
-	pandoc --metadata pagetitle="Lecture Notes" --standalone --css=style.css -o $@ $<
+	pandoc --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
 
 lectures/index.html: lectures lectures/all.html
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 > index.html
