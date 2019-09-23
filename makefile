@@ -28,7 +28,7 @@ lectures:
 
 lectures/all.md:
 	rm -f lectures/all.md # This must be deleted, or it will be included in itself and hang the build
-	cd lectures && sed -e '$$G' -s *.md > all.md
+	cd lectures && sed -e '$$G' -s `ls -v *.md` > all.md
 
 lectures/all.html: lectures/all.md
 	pandoc --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
