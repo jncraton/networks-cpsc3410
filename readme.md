@@ -1,7 +1,7 @@
 CPSC 3410 Computer Networks
 ===========================
 
-!INCLUDEURL "https://raw.githubusercontent.com/jncraton/syllabus-template/master/head.md"
+!INCLUDE "head.md"
 
 Course Catalog Description
 --------------------------
@@ -46,4 +46,4 @@ Students will complete appoximately 8 homework assignments covering various topi
 
 A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
 
-!INCLUDEURL "https://raw.githubusercontent.com/jncraton/syllabus-template/master/tail.md"
+!INCLUDE "tail.md"
