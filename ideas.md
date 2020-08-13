@@ -1,3 +1,7 @@
+https://www.cs.princeton.edu/courses/archive/spring12/cos461/syllabus.html
+
+https://booksite.elsevier.com/9780123850591/lec.php
+
 ### Possible Labs
 
 RS232
