@@ -14,3 +14,8 @@ Location: Decker 353 or scheduled virtual meeting
 - 10am - 12pm Thursday
 - 1pm - 3pm Friday
 - My availability can be found here: [joncraton.com/calendar](https://joncraton.com/calendar)
+
+Course Delivery
+---------------
+
+This course is being offered face-to-face. In the event that you are presenting possible new COVID-19 symptoms, or you need to miss class for other reasons, the course will be live streamed via Canvas. You will not be penalized for missing class for legitimate reasons, but your attendance in the classroom is otherwise expected. Please notify me via email (ideally before class) if you will not be able to attend.
