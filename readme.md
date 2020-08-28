@@ -38,12 +38,16 @@ Students will complete two presentations over the course of the semester sharing
 
 Students will complete weekly labs using various network technologies and the Python programming language.
 
-### Homework/Quizzes
+### Homework
 
-Students will complete appoximately 8 homework assignments covering various topics from the course text. Reading quizzes may also be given as needed and will be counted as homework grades.
+Students will complete appoximately 8 homework assignments covering various topics from the course text.
+
+### Quizzes
+
+Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest three quiz scores from the semester will not count toward the final grade.
 
 ### Exams
 
-A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material.
+A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material. Exams are typically a mix of multiple choice and essay questions.
 
 !INCLUDE "tail.md"
