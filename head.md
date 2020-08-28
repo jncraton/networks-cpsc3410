@@ -15,6 +15,8 @@ Location: Decker 353 or scheduled virtual meeting
 - 1pm - 3pm Friday
 - My availability can be found here: [joncraton.com/calendar](https://joncraton.com/calendar)
 
+I will make my self available during these times both face-to-face and virtually. Please arrange meetings ahead of time via email in either case.
+
 Course Delivery
 ---------------
 
