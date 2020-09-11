@@ -4,6 +4,8 @@ def parse_mac(mac):
     """ 
     Parses a MAC address in one of several common formats and returns 
     it as all uppercase with any separators removed.
+
+    Hint: It may be helpful to use regular expressions (perhaps re.match) here.
   
     Example usage:
   
@@ -43,6 +45,9 @@ def get_mac_oui(mac):
 
     The OUI is the first 3 octets (bytes) of the MAC address.
 
+    Hint1: You probably want to call your parse_mac function in here.
+    Hint2: You may want to become familiar with slicing notation in Python.
+
     Example usage:
 
     >>> get_mac_oui('00:11:22:aa:bb:cc')
@@ -65,6 +70,9 @@ def get_mac_organization(mac):
     IEEE:
 
     http://standards-oui.ieee.org/oui/oui.csv
+
+    Hint1: You should download the above file and search through it.
+    Hint2: The csv module provides a DictReader class.
 
     Example usage:
 
