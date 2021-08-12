@@ -33,7 +33,7 @@ lectures/all.md:
 	cd lectures && sed -e '$$G' -s `ls -v *.md` > all.md
 
 lectures/all.html: lectures/all.md pandoc
-	./pandoc -V lang=en -metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
+	./pandoc -V lang=en --metadata pagetitle="Lecture Notes" --standalone --mathjax --css=../style.css -o $@ $<
 
 lectures/all-slides.html: lectures/all.md
 	./pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
