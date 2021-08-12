@@ -1,3 +1,5 @@
+<main>
+
 - Instructor: Jon Craton (jlcraton@anderson.edu)
 - Office: Decker 354
 - [Lecture Notes](lectures/index.html)
