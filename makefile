@@ -20,13 +20,13 @@ index.md: formats.md syllabus.md
 	cat formats.md syllabus.md > index.md
 
 index.html: index.md pandoc
-	./pandoc --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+	./pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
 
 syllabus.docx: syllabus.md pandoc
 	./pandoc --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
 
 syllabus.pdf: syllabus.md pandoc
-	./pandoc --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
+	./pandoc -V lang=en --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
 
 lectures: pandoc
 	find lectures -name "*.md" -exec ./pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
