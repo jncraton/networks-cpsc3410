@@ -2,21 +2,21 @@ Grading Scale
 -------------
 
 The following standard grading scale is used to map percentages to letter grades:
-
---- --------
-A   93-100%
-A-  90-93%
-B+  87-90%
-B   83-87%
-B-  80-83%
-C+  77-80%
-C   73-77%
-C-  70-73%
-D+  67-70%
-D   63-67%
-D-  60-63%
-F   0-60%
---- --------
+Letter Grade   Percentage
+------------   ----------
+A              93-100%
+A-             90-93%
+B+             87-90%
+B              83-87%
+B-             80-83%
+C+             77-80%
+C              73-77%
+C-             70-73%
+D+             67-70%
+D              63-67%
+D-             60-63%
+F              0-60%
+------------   --------
 
 Late Assignments
 ----------------
@@ -35,10 +35,9 @@ veritas - fidelitas - utilitas
 COVID-19
 --------
 
-AU is operating as a fully open campus. While AU does not require masking, the campus encourages those
-who choose not to vaccinate and those concerned with exposure to wear masks. We also acknowledge
-that in a pandemic we cannot predict conditions that may arise. For the most up to date information please
-reference our web page [COVID-19 information](https://anderson.edu/coronavirus/).
+AU is operating as a fully open campus at this point, but we also acknowledge that in a pandemic we
+cannot predict conditions that may arise. For the most up-to-date information regarding mask requirements
+and COVID-19 policies please reference our web page [COVID-19 information](https://anderson.edu/coronavirus/).
 
 Academic Honesty
 ----------------
