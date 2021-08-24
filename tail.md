@@ -2,6 +2,7 @@ Grading Scale
 -------------
 
 The following standard grading scale is used to map percentages to letter grades:
+
 Letter Grade   Percentage
 ------------   ----------
 A              93-100%
