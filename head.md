@@ -9,7 +9,7 @@ Office hours
 
 Location: Decker 354
 
-- 2pm - 3pm Monday, Tuesday, Wednesday
+- 3pm - 4pm Monday, Tuesday, Wednesday
 - 9am - 11am Thursday
 - 1pm - 4pm Friday
 - My availability can be found here: [joncraton.com/calendar](https://joncraton.com/calendar)
