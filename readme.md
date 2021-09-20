@@ -13,6 +13,10 @@ Required Resources
 
 Computer Networks: A Systems Approach. Peterson, L., Davie, B. [Freely available online](https://book.systemsapproach.org/README.html)
 
+Optional Resources
+------------------
+
+- [Python for Everybody (free)](https://www.py4e.com/book). Severance, Charles.
 
 Course objectives
 -----------------
