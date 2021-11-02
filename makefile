@@ -24,7 +24,7 @@ lectures:
 	find lectures -name "*.md" -exec pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o "{}.html" "{}" \;
 
 spellcheck:
- for f in lectures/*.md; do aspell --home-dir=. --check --dont-backup "$$f"; done
+	for f in lectures/*.md; do aspell --home-dir=. --check --dont-backup "$$f"; done
 
 lectures/all.md:
 	rm -f lectures/all.md # This must be deleted, or it will be included in itself and hang the build
