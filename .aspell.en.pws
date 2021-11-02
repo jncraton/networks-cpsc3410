@@ -1,4 +1,4 @@
-personal_ws-1.1 en 229 
+personal_ws-1.1 en 239 
 AAABBCDDDD
 ACKs
 ACO
@@ -9,6 +9,7 @@ ARPANET
 ARQ
 ASIC
 ASICs
+Alexa
 Analytica
 Authenticator
 Autoconfiguration
@@ -17,11 +18,14 @@ BBUs
 BGP
 BISYNC
 Beamlab
+Benji
 Bitrate
 Bitrates
 Blowfish
 CDNs
 CIDR
+COVID
+CPSC
 CRC
 CRCs
 CSMA
@@ -30,6 +34,7 @@ CTS
 Centric
 CongestionWindow
 Connectionless
+Craton
 DCT
 DDCMP
 DECNET
@@ -39,6 +44,7 @@ DHCP
 DNS
 DRM
 DSL
+DSN
 DTLS
 Datagram
 Datagrams
@@ -53,9 +59,11 @@ Fi
 GPUs
 Gbps
 Ghz
+Goldstone
 HDLC
 HLen
 HMAC
+HTTPS
 IANA
 ICMP
 IETF
@@ -67,6 +75,8 @@ Interdomain
 Internetwork
 Internetworking
 Intrapicture
+IoT
+JSON
 Jitter
 LAF
 LANs
@@ -103,7 +113,6 @@ ONU
 ONUs
 OSI
 OSPF
-Oridinarily
 PON
 PPP
 PRBs
@@ -170,6 +179,7 @@ backplanes
 bitstream
 bitstreams
 ciphertext
+connectome
 cryptographic
 datagrams
 decrypted
