@@ -43,20 +43,20 @@ and COVID-19 policies please reference our web page [COVID-19 information](https
 Academic Honesty
 ----------------
 
-As an institution of higher education committed to academic and Christian discovery, Anderson University expects faculty and students alike to maintain the highest standards of academic and personal integrity. "Anderson University seeks to support and promote qualities of academic honesty and personal integrity and regards cheating, plagiarism, and all other forms of academic dishonesty as serious offenses against the University community" (Faculty Handbook 4.23 Policy on Academic Integrity). See the student handbook for examples of plagiarism.
+As an institution of higher education committed to academic and Christian discovery, Anderson University expects faculty and students alike to maintain the highest standards of academic and personal integrity. "Anderson University seeks to support and promote qualities of academic honesty and personal integrity and regards cheating, plagiarism, and all other forms of academic dishonesty as serious offenses against the University community" (Faculty Handbook 4.23 Policy on Academic Integrity). See the [Student Handbook](https://anderson.edu/student-life/handbook/) for examples of plagiarism.
 
 Academic Support Statements
 ---------------------------
 
 ### Accessibility and Accommodations
 
-Important: If you have any special accessibility needs (i.e. use of screen reading software, captioning, etc.), please notify your professor and the Director of Disability Services for Students (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223) as soon as possible.
+Important: If you have any special accessibility needs (i.e. use of screen reading software, captioning, etc.), please notify your professor and the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223) as soon as possible.
 
-If you anticipate or experience physical or academic barriers based on disability, you are encouraged to contact the Director of Disability Services for Students (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223). To receive reasonable accommodations, you must contact Disability Services for Students, provide documentation, and request accommodations. You should also notify your course instructor during the first week of classes.
+If you anticipate or experience physical or academic barriers based on disability, you are encouraged to contact the Director of Student Accessibility Services (Kissinger Academic Center for Excellence, Nicholson Library; 765-641-4223). To receive reasonable accommodations, you must contact Student Accessibility Services, provide documentation, and request accommodations. You should also notify your course instructor during the first week of classes.
 
 ### Kissinger Academic Center for Excellence
 
-The Kissinger Academic Center for Excellence (KACE), located on the ground floor of the Nicholson Library, provides excellent resources in all areas of study regardless of academic ability. Many students can benefit from academic support and/or sharpen their skills through studying with others. In addition, excellent students often maintain their skills by working as peer tutors. The services are available for all enrolled students at no charge. For information, call 765-641-4225.
+The [Kissinger Academic Center for Excellence (KACE)](https://anderson.edu/kissinger/services/), located on the ground floor of the Nicholson Library, provides excellent resources in all areas of study regardless of academic ability. Many students can benefit from academic support and/or sharpen their skills through studying with others. In addition, excellent students often maintain their skills by working as peer tutors. The services are available for all enrolled students at no charge. For information, call 765-641-4225.
 
 Attendance Policy
 -----------------

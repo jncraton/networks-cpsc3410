@@ -36,8 +36,11 @@ lectures/all.html: lectures/all.md
 lectures/all-slides.html: lectures/all.md
 	pandoc --mathjax -t revealjs --standalone -V theme:white -V history=true --metadata pagetitle=Slides -o $@ $<
 
-lectures/index.html: lectures lectures/all.html lectures/all-slides.html
+lectures/index.html: lectures lectures/all.html lectures/all-slides.html lectures/reveal.js
 	cd lectures && tree -H '.' -L 1 --noreport --charset utf-8 -P "*.html" > index.html
+
+lectures/reveal.js:
+	cd lectures && git clone --depth=1 --branch 3.9.2 https://github.com/hakimel/reveal.js
 
 clean:
 	rm -rf pandoc*
