@@ -1,4 +1,4 @@
-personal_ws-1.1 en 245 
+personal_ws-1.1 en 259 
 AAAAABBBBCDDDDDD
 AAABBCDDDD
 ACKs
@@ -72,6 +72,7 @@ IGF
 IPv
 ISPs
 Ident
+IndentationError
 Interdomain
 Internetwork
 Internetworking
@@ -79,6 +80,7 @@ Intrapicture
 IoT
 JSON
 Jitter
+KACE
 LAF
 LANs
 LAR
@@ -112,12 +114,15 @@ OFDMA
 OLT
 ONU
 ONUs
+OOP
+OSBoxes
 OSI
 OSPF
 PON
 PPP
 PRBs
 QAM
+QEMU
 QUIC
 QoS
 RCP
@@ -168,8 +173,11 @@ VCI
 VCs
 VLAN
 VLANs
+VM
 VPN
+VirtualBox
 WSDL
+Whitespace
 Wi
 Wifi
 Wireshark
@@ -193,6 +201,7 @@ demultiplexing
 dl
 endianess
 fanout
+fidelitas
 flowspec
 fragmentations
 gRPC
@@ -213,6 +222,7 @@ multicast
 multicasting
 nameserver
 namespaces
+natively
 ourself
 plaintext
 pre
@@ -242,5 +252,9 @@ traceroute
 uncongested
 unicast
 unselected
+utilitas
+veritas
+virt
+virtualized
 wirelessly
 youtube
