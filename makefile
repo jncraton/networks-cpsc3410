@@ -57,4 +57,5 @@ clean:
 	rm -rf __pycache__
 	rm -f netlifyctl
 	rm -rf revealjs
+	rm -rf lectures/reveal.js
 	rm -f readme-template.md
