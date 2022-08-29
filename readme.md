@@ -40,7 +40,7 @@ Students will complete two presentations over the course of the semester sharing
 
 ### Labs
 
-Students will complete weekly labs using various network technologies and the Python programming language.
+Students will complete weekly labs using various network technologies and the Python programming language. Programming lab submissions that include syntax or parse errors that prevent them from running will receive no credit.
 
 ### Homework
 
