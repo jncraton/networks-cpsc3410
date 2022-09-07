@@ -1,4 +1,4 @@
-personal_ws-1.1 en 263 
+personal_ws-1.1 en 266 
 AAAAABBBBCDDDDDD
 AAABBCDDDD
 ACKs
@@ -49,6 +49,7 @@ DSN
 DTLS
 Datagram
 Datagrams
+Davie
 Demultiplexor
 ECC
 EPC
@@ -139,6 +140,7 @@ RTS
 RTT
 RWS
 Repo
+SMTP
 SNR
 SONET
 SRAM
@@ -221,6 +223,7 @@ le
 lookups
 macroblocks
 mbps
+md
 multicast
 multicasting
 nameserver

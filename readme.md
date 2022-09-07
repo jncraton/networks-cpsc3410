@@ -44,7 +44,7 @@ Students will complete weekly labs using various network technologies and the Py
 
 ### Homework
 
-Students will complete appoximately 8 homework assignments covering various topics from the course text.
+Students will complete approximately 8 homework assignments covering various topics from the course text.
 
 ### Quizzes
 
