@@ -6,7 +6,7 @@ CPSC 3410 Computer Networks
 Course Catalog Description
 --------------------------
 
-Students will gain in-depth knowledge of networking protocols and technologies, including their relationship to network-centric computing with packet networks. The course topics including ethernet MAC layer, internet protocol, transport layer (TCP, UDP), switching, routing, and network interfaces. The fundamental concepts behind network security and network related threats are presented. Practical network software programming using python is covered with hands-on experience in the lab.
+Students will learn the fundamental concepts, technologies, components, and issues related to communications  and data networks. The course topics include networking models (OSI and IP), media (wired, wireless, optical), architectures (PAN, LAN/WAN, DMZ, VLAN, subnetting), devices (routers, switches, firewalls), and protocols (IP, TCP, UDP, ICMP). The fundamental concepts behind network security and network related threats are presented. Practical network software programming is covered with hands-on experience in the lab.
 
 Required Resources
 ------------------
