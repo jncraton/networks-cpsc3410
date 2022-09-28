@@ -1,4 +1,4 @@
-personal_ws-1.1 en 267 
+personal_ws-1.1 en 268 
 AAAAABBBBCDDDDDD
 AAABBCDDDD
 ACKs
@@ -101,6 +101,7 @@ Middleware
 MitM
 Multicast
 Multiprotocol
+NACK
 NAV
 NICs
 NPU
