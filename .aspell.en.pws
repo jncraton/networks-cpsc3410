@@ -1,4 +1,4 @@
-personal_ws-1.1 en 268 
+personal_ws-1.1 en 270 
 AAAAABBBBCDDDDDD
 AAABBCDDDD
 ACKs
@@ -140,6 +140,7 @@ RTP
 RTS
 RTT
 RWS
+RavenEdge
 Repo
 SMTP
 SNR
@@ -155,6 +156,7 @@ SWS
 Sawtooth
 Scalable
 SeqNum
+SoSE
 Subnet
 SubnetMask
 SubnetNumber
