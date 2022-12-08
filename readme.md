@@ -57,7 +57,7 @@ A total of 3 exams will be taken in this course. All exams are cumulative with a
 ### Assignments
 
 Date               Assignment
------------------- ----------------------------------------------------- 
+------------------ -----------------------------------------------------
 Tue Aug 30, 2022   Lab 0 - Python Pre-assessment
 Wed Sep 7, 2022    Lab 1 - Wifi Scanning
 Wed Sep 14, 2022   Lab 2 - Python Intro, MAC parsing
