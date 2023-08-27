@@ -1,5 +1,8 @@
+Anderson University
+===================
+
 CPSC 3410 Computer Networks
-===========================
+---------------------------
 
 !INCLUDE "head.md"
 
