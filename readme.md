@@ -57,30 +57,4 @@ Regular quizzes will be given covering the lecture material. Students will have 
 
 A total of 3 exams will be taken in this course. All exams are cumulative with a focus on more recent material. Exams are typically a mix of multiple choice and essay questions.
 
-### Assignments
-
-Date               Assignment
------------------- -----------------------------------------------------
-Tue Aug 30, 2022   Lab 0 - Python Pre-assessment
-Wed Sep 7, 2022    Lab 1 - Wifi Scanning
-Wed Sep 14, 2022   Lab 2 - Python Intro, MAC parsing
-Thu Sep 15, 2022   Tech Talk - Tom Harbron
-Wed Sep 21, 2022   Lab 3 - IRC Client
-Wed Sep 28, 2022   Lab 4 - Bandwidth Calculator
-Thu Oct 13, 2022   Lab 5 - NRZ Encoding
-Mon Oct 17, 2022   Midterm Review Homework
-Tue Oct 18, 2022   Midterm Exam
-Wed Oct 19, 2022   Lab 6 - Hamming Codes
-Wed Oct 26, 2022   Lab 7 - LAN Hardware Selection
-Wed Oct 26, 2022   RavenEdge Career Fair
-Tue Nov 1, 2022    Presentation 1
-Wed Nov 2, 2022    Lab 8 - Wireshark and the IP Layer
-Wed Nov 9, 2022    Lab 9 - Design a network
-Wed Nov 16, 2022   Lab 10 - Nmap
-Tue Nov 22, 2022   Lab 11 - Wireshark and TCP
-Wed Dec 7, 2022    Lab 12 - HTTPS API Sockets
-Fri Dec 9, 2022    Presentation 2
-Wed Dec 14, 2022   Final Exam Review
-Thu Dec 15, 2022   Final Exam
-
 !INCLUDE "tail.md"
