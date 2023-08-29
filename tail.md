@@ -64,6 +64,7 @@ Attendance Policy
 -----------------
 
 Class attendance is fundamental to the teaching/learning process and any absence from a class results in a loss of learning for the student and learning community. It is the student's obligation to personally notify the course instructor about any absence, in advance if possible. Students may be directly penalized only after the number of absences exceeds the number of class meeting hours per week. Where a student misses more than the number of classes stated above, or additional absences as may be allotted by the course instructor, the instructor has the discretion to determine whether missed work may be completed, how much work will be evaluated, and consequences of excessive absences.
+
 Pathways Program
 ----------------
 
