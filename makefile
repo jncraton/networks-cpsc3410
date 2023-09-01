@@ -18,7 +18,25 @@ syllabus.docx: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
 
 syllabus.pdf: syllabus.md
-	pandoc -V lang=en --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight --mathjax --variable titlepage="false" -s -o $@ $< 
+	pandoc -V lang=en --metadata title-meta=Syllabus --variable documentclass=article --variable fontsize=12pt --variable mainfont="FreeSans" --variable mathfont="FreeMono" --variable monofont="FreeMono" --variable monofontoptions="SizeFeatures={Size=8}" --include-in-head head.tex --no-highlight -V 'hyphens=none' --mathjax --variable titlepage="false" -s -o $@ $< 
+	gs					\
+		-q -dNOPAUSE -dBATCH -dSAFER		\
+		-sDEVICE=pdfwrite			\
+		-dCompatibilityLevel=1.4		\
+		-dPDFSETTINGS=/screen			\
+		-dEmbedAllFonts=true			\
+		-dSubsetFonts=true			\
+		-dCompressFonts=true \
+		-dAutoRotatePages=/None		\
+		-dColorImageDownsampleType=/Bicubic	\
+		-dColorImageResolution=75		\
+		-dGrayImageDownsampleType=/Bicubic	\
+		-dGrayImageResolution=75		\
+		-dMonoImageDownsampleType=/Bicubic	\
+		-dMonoImageResolution=75		\
+		-sOutputFile=syllabus-comp.pdf \
+		syllabus.pdf
+	cp -f syllabus-comp.pdf CPSC*.pdf
 
 env.html: env.md
 	pandoc -V lang=en --metadata pagetitle=Environment --standalone --css=style.css -o $@ $<
