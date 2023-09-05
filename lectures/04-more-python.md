@@ -45,7 +45,7 @@ Why would strings be immutable?
 Benefits
 --------
 
-- No buffer overflows due to exact and correct one-time allocation
+- No buffer overflows thanks to exact and correct one-time allocation
 - Simplified and faster language internals (string-based names are guaranteed to never change)
 - Memory efficiency (all strings with the same value are the same string)
 
