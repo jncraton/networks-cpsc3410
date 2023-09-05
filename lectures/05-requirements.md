@@ -1,3 +1,137 @@
+Regular Expressions
+===================
+
+Regular Expressions
+-------------------
+
+- A sequence of characters that describe a pattern in a string
+- [Textbook overview](https://www.py4e.com/html3/11-regex)
+
+Importing Modules
+-----------------
+
+- Regular expressions are a part of the Python standard library, but the module is not available to the interpreter until it is imported
+
+```python
+import re
+```
+
+RE Basics
+---------
+
+- Characters are generally matched literally.
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("dog", s)
+```
+
+```python
+['dog']
+```
+
+RE Methods
+----------
+
+- [re.findall](https://docs.python.org/3/library/re.html#re.findall) - Return non-overlapping matches as a list
+- [re.match](https://docs.python.org/3/library/re.html#re.match) - Returns a `match` object if pattern matches string
+- [re.sub](https://docs.python.org/3/library/re.html#re.sub) - Replace pattern with replacement in string
+- [Many more](https://docs.python.org/3/library/re.html)
+
+RE Boolean Or
+-------------
+
+- Pipes (|) can be used for Boolean or
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("dog|fox", s)
+```
+
+```python
+['fox', 'dog']
+```
+
+RE Quantifiers
+--------------
+
+- `?` - zero or one occurrences of preceding element
+- `*` - zero or more occurrences of preceding element
+- `+` - one or more occurrences of preceding element
+- `{n}` - exactly n occurrences of preceding element
+
+---
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("ov?", s)
+```
+
+```python
+['o', 'o', 'ov', 'o']
+```
+
+RE Grouping
+-----------
+
+- Parens can be used for grouping
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("(d|f)o(g|x)", s)
+```
+
+```python
+[('fox', 'f', 'x'), ('dog', 'd', 'g')]
+```
+
+RE Bracket Expressions
+----------------------
+
+- Brackets `[]` may be used to match a single character against a set of characters
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("[df]o[gx]", s)
+```
+
+```python
+['fox', 'dog']
+```
+
+RE Character Classes
+--------------------
+
+Several special character classes are provided:
+
+- `\w` - alphanumeric characters
+- `\d` - digits
+- `\s` - whitespace characters
+- `.` - anything
+
+---
+
+```python
+import re
+
+s = "the quick brown fox jumped over the lazy dog"
+re.findall("\s...\s", s)
+```
+
+```python
+[' fox ', ' the ']
+```
+
 1.2 Requirements
 ================
 
@@ -125,3 +259,53 @@ Big idea
 
 - Networks are defined recursively
 - This hides complexity, overcomes physical limitations, and makes the overall system manageable
+
+Cost-effective resource sharing
+===============================
+
+---
+
+- Focusing on a packet switched networks, we can see that resources (such core links) are constantly being shared
+- How do we ensure that shared resources are used fairly?
+
+---
+
+![Multiplexing multiple flows over one link](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Multiplexing_diagram.svg/640px-Multiplexing_diagram.svg.png)
+
+---
+
+![Synchronous Time-division multiplexing (STDM)](https://upload.wikimedia.org/wikipedia/commons/e/e0/Telephony_multiplexer_system.gif){height=262px}
+
+Frequency division multiplexing
+-------------------------------
+
+- Breaks link into subchannels and uses one for each device
+- You're familiar with this in TV and radio
+- Wifi channels are also an example
+
+Weaknesses
+----------
+
+- Both FDM and STDM waste available resources
+- Bandwidth is reserved for all hosts, even when they don't need it
+- Number of flows must be known in advance
+
+Statistical multiplexing
+------------------------
+
+- Link is shared over time
+- Data is transmitted from each flow on demand without waiting for hosts with nothing to say
+- One flow may only consume the link for a given amount of time
+
+Quality of Service (QoS)
+------------------------
+
+- Various algorithms can be chosen to determine who sends on the medium
+    - First-in, first-out (FIFO)
+    - Flow-based round-robin
+    - Much more complex algorithms
+
+Big idea
+--------
+
+Statistical multiplexing allows fair sharing of a link
