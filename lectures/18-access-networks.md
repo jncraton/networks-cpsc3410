@@ -61,15 +61,6 @@ Wifi Security
 - All traffic is broadcast over the air and is vulnerable to eavesdropping
 - We will discuss adding encryption to secure wireless channels in chapter 8
 
-Bluetooth
-=========
-
----
-
-- Operates at 2.45 GHz
-- Connect devices at short range
-- Headsets, mice, etc
-
 2.8 Access Networks
 ===================
 
