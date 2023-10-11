@@ -109,12 +109,10 @@ Let's look at the forwarding table on switch 2
 Datagram Networks
 -----------------
 
-- Connectionless (packets can be forward at any time with establishing a connection)
+- Connectionless (packets can be forward at any time without establishing a connection)
 - Hosts don't know if packets can be delivered successfully
 - Changes to forwarding table will cause packets to take new paths at any time
 - Link failures may not cause downtime if forwarding table can be updated to route around breaks
-
----
 
 Virtual Circuit Switching
 =========================
