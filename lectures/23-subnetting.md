@@ -152,19 +152,3 @@ Wireshark
 ---------
 
 - Use `bootp` filter
-
-Error Reporting (ICMP)
-======================
-
-Internet Control Message Protocol
----------------------------------
-
-- Acts as a sidechannel for communicate the status of messages
-
-ICMP Uses
----------
-
-- Communicates errors (host unreachable, checksum error, etc)
-- ICMP echo requests (ping) can be used to check if a host is up
-- ICMP redirect to learn better routes
-- Provides building blocks for traceroute
