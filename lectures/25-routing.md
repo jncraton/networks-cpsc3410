@@ -1,66 +1,3 @@
-Error Reporting (ICMP)
-======================
-
-Internet Control Message Protocol
----------------------------------
-
-- Acts as a sidechannel for communicate the status of messages
-
-ICMP Uses
----------
-
-- Communicates errors (host unreachable, checksum error, etc)
-- ICMP echo requests (ping) can be used to check if a host is up
-- ICMP redirect to learn better routes
-- Provides building blocks for traceroute
-
-Virtual Networks and Tunnels
-============================
-
-Private Networks
-----------------
-
-- Corporations with multiple locations might wish to connect their networks
-- This can be done over the Internet
-- It can be done more securely by leasing private connections between the networks
-
-Virtual Private Networks
-------------------------
-
-- It can be more cost-effective to encrypt traffic between networks rather than lease a dedicated connection
-
----
-
-![a - private network, b - VPN](https://book.systemsapproach.org/_images/f03-26-9780123850591.png){height=540px}
-
----
-
-Can a VPN be used for other purposes?
-
-Tunnels
--------
-
-- We can send IP traffic or other network traffic over another IP connection
-- This can be used to encrypt connections or provide access to other systems
-
-SSH Tunnel Example
-------------------
-
-```
-ssh -R remote_port:localhost:local_port user@host
-```
-
-This allows a local server application to become accessible from a different host.
-
-SSH Proxy Example
------------------
-
-```
-ssh -D [bind_address:]port remote_host
-```
-
-This creates a local SOCKS proxy to forward traffic via `remote_host`
-
 3.4 Routing
 ===========
 
@@ -521,3 +458,116 @@ Complete Routing
 ---
 
 ![iLight Network Map](https://ilight.net/images/i-light-topo-map-2021-september.png){height=540px}
+
+4.2 IP Version 6
+================
+
+IP Version 4
+------------
+
+- Still used by most hosts on the Internet
+- Limited to 32-bit addresses (4 billion unique address)
+
+---
+
+![IPv4 Header](https://book.systemsapproach.org/_images/f03-16-9780123850591.png){height=540px}
+
+IP Upgrade
+----------
+
+- Growing address size requires new version of IP protocol and associated network hardware upgrades
+- It made sense to include other new features while updating the protocol
+
+IPv6 Features
+-------------
+
+- Autoconfiguration
+- Enhanced routing
+- Compatibility with IPv4 during transition period
+
+IPv6 Addresses
+--------------
+
+- 128 bits long
+- Support embedding 48-bit link-local addresses
+
+---
+
++-----------------+---------------------+
+| Prefix          | Use                 |
++=================+=====================+
+| 00…0 (128 bits) | Unspecified         |
++-----------------+---------------------+
+| 00…1 (128 bits) | Loopback            |
++-----------------+---------------------+
+| 1111 1111       | Multicast addresses |
++-----------------+---------------------+
+| 1111 1110 10    | Link-local unicast  |
++-----------------+---------------------+
+| Everything else | Global Unicast      |
++-----------------+---------------------+
+
+Notation
+--------
+
+- Typically 8 groups of 4 hex characters
+- For example: 47CD:1234:4422:ACO2:0022:1234:A456:0124
+- Runs of zeroes may be omitted (47CD::A456:0124)
+- IPv4 over IPv6 may be written as ::FFFF:128.96.33.81
+
+Global Unicast Addresses
+------------------------
+
+- Support hierarchical routing by default
+- Leverage extra bits to create cleaner format and networking boundaries
+
+---
+
+![IPv6 provider-based unicast address](https://book.systemsapproach.org/_images/f04-11-9780123850591.png)
+
+IPv6 Packet Format
+------------------
+
+- Updates version field to 6
+- Removes rarely used features
+- Adds longer addresses
+- Improves option parsing via static ordering
+
+---
+
+![IPv6 Header](https://book.systemsapproach.org/_images/f04-12-9780123850591.png){height=540px}
+
+Fragmentation
+-------------
+
+- We try to avoid fragmentation whenever possible
+- We move fragmentation information out of standard headers and into options to save space in the common case
+
+Autoconfiguration
+-----------------
+
+- Advanced feature of IPv6
+- Allows creating local addresses without DHCP
+- We can create link-local addresses using a prefix and MAC address
+
+---
+
++-----------------+---------------------+
+| Prefix          | Use                 |
++=================+=====================+
+| 00…0 (128 bits) | Unspecified         |
++-----------------+---------------------+
+| 00…1 (128 bits) | Loopback            |
++-----------------+---------------------+
+| 1111 1111       | Multicast addresses |
++-----------------+---------------------+
+|**1111 1110 10** | Link-local unicast  |
++-----------------+---------------------+
+| Everything else | Global Unicast      |
++-----------------+---------------------+
+
+Source-Directed Routing
+-----------------------
+
+- Allow individual packets to specify which networks they should pass through
+- Can be used to balance cost and quality of service requirements
